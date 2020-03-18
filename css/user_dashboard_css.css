@@ -109,10 +109,19 @@ ul li a{
 }
 
 .page .section-title{
-    height: 8%;
+    height: 10%;
     width: 95%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 25px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page .section-title div{
+    display: flex;
+    margin-left: 5px;
+    
 }
 
 .page .content{
@@ -120,11 +129,55 @@ ul li a{
     width: 95%;
     border: 1px solid black;
     margin-top: 15px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(232, 235, 234);
+    
 }
-/* 
-.page footer{
-    height: 5%;
-    width: 95%;
-    border: 1px solid black;
-    justify-self: flex-start;
-} */
+
+.content div{
+    margin-left: 20px;
+}
+
+.content form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.content form div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content form input{
+    height: 30px;
+    width: 50%;
+    margin-left: 15px;
+    margin-bottom: 9px;
+    outline: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-color: rgb(124, 122, 122);
+    
+}
+
+.content form div .submit{
+   width: 30%;
+   cursor: pointer;
+   
+}
+
+.content form div .submit:hover{
+    background-color: blue;
+    color: wheat;
+
+}
+
