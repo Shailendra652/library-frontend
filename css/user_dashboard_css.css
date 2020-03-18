@@ -127,14 +127,15 @@ ul li a{
 .page .content{
     height: 60%;
     width: 95%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 15px;
     color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: rgb(232, 235, 234);
-    
+    border-radius: 10px;
+    border-top: 5px solid rgb(253, 253, 253);    
 }
 
 .content div{
@@ -165,9 +166,10 @@ ul li a{
     border-radius: 15px;
     padding-left: 10px;
     font-size: 20px;
-    border-color: rgb(124, 122, 122);
+    border-color: rgb(211, 206, 206);
     
 }
+
 
 .content form div .submit{
    width: 30%;
